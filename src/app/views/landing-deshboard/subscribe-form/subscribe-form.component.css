@@ -1,0 +1,60 @@
+.subscribe_form {
+    width: 100%;
+    display: inline-block;
+    padding: 170px 0 170px;
+}
+
+.subscribe_form .container {
+    max-width: 570px;
+}
+
+.subscribe_form h3 {
+    color: #30545D;
+    font-family: Montserrat;
+    font-size: 35px;
+    letter-spacing: -1.17px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 0 28px;
+    font-weight: 400;
+}
+
+.subscribe_form .form-group {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.subscribe_form .form-group .form-control {
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    height: 56px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: none;
+    border: none;
+    font-weight: 400;
+    width: 355px;
+    margin: 0 10px 0 0px;
+}
+
+.subscribe_form .form-group .btn-default {
+    height: 56px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #EB594C;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.subscribe_form .form-group .btn-default:hover {
+    background-color: #D0001B;
+}

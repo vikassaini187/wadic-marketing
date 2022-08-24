@@ -1,0 +1,24 @@
+
+    .link-section {
+        text-align: center;
+        margin-top: 91px;
+    }
+    
+    .link-section p {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .link-section h3 {
+        color: #041531;
+        font-family: Montserrat;
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 11px;
+    }
+    
+    img.link-img {
+        margin-top: 78px;
+    }

@@ -1,0 +1,119 @@
+
+    .counter_sec {
+        width: 100%;
+        display: inline-block;
+        padding: 90px 0 0;
+    }
+    
+    .counter_sec h2 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 35px;
+        letter-spacing: -1.17px;
+        line-height: 43px;
+        text-align: center;
+        font-weight: 400;
+        max-width: 1046px;
+        margin: 0 auto 120px;
+    }
+    
+    .counter_col {
+        background-color: #FFF;
+        box-shadow: 0 12px 20px 0 rgba(208, 0, 27, 0.09);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 60px;
+        position: relative;
+        padding: 100px 0 60px;
+        width: 100%;
+    }
+    
+    .counter_col .col-sm-2 {
+        width: 25%;
+        text-align: center;
+        position: relative;
+    }
+    
+    .counter_col .col-sm-2:before {
+        position: absolute;
+        right: -60px;        
+        bottom: 0;
+        height: 150px;
+        background-color: #FFC8CF;
+        content: "";
+        width: 1px;
+    }
+
+  
+    
+    .counter_col .col-sm-2:last-child:before {
+        content: none;
+    }
+    
+    .counter_col:before {
+        height: 15px;
+        width: 100%;
+        background-color: rgba(208, 0, 27, 0.13);
+        position: absolute;
+        left: 50%;
+        bottom: -35px;
+        content: "";
+        transform: translate(-50%, 0px);
+    }
+    
+    .counter_thumb h3 {
+        color: #333;
+        font-family: Montserrat;
+        font-size: 60px;
+        line-height: 73px;
+        text-align: center;
+        font-weight: 400;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .counter_thumb h3:before {
+        position: absolute;
+        content: "+";
+        right: -14px;
+        color: #D0001B;
+        font-size: 20px;
+        font-weight: 500;
+        bottom: -14px;
+    }
+    
+    .counter_thumb h3:after {
+        position: absolute;
+        content: "";
+        font-size: 20px;
+        font-weight: 500;
+        top: -45px;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        height: 12px;
+        border-radius: 50px;
+        width: 12px;
+        background-color: #041531;
+    }
+    
+    .exerts .counter_thumb h3:after {
+        background-color: #D0001B;
+    }
+    
+    .customers .counter_thumb h3:after {
+        background-color: rgba(48, 84, 93, 0.9);
+    }
+    
+    .websites .counter_thumb h3:after {
+        background-color: #FF4F00;
+    }
+    
+    .counter_thumb p {
+        margin: 10px 0 0;
+        color: #333;
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }

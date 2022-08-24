@@ -1,0 +1,382 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+img,
+button {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #0085d3;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+
+
+    
+@media screen and (max-width: 1280px) {
+    .service_col h5 {
+        font-size: 18px !important;
+        margin: 0 0 10px !important;
+    }
+    .service_sec .col-sm-9 {
+        padding-right: 15px !important;
+    }
+    .service_col {
+        margin: 0 5px 20px !important;
+        padding: 15px 15px !important;
+        width: 230px !important;
+        height: auto !important;
+    }
+    .service_sec .let_col h4 {
+        font-size: 28px !important;
+    }
+    .service_sec .let_col p {
+        font-size: 16px !important;
+    }
+    .ceo-section h4 {
+        font-size: 28px !important;
+    }
+    img.img-ceo {
+        max-width: 350px !important;
+    }
+    .subscribe_form {
+        padding: 100px 0 130px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    img.img-ceo {
+        max-width: 270px !important;
+    }
+    section.ceo-section {
+        max-height: none !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .counter_sec h2 {
+        color: #000 !important;
+        font-family: Montserrat !important;
+        font-size: 28px !important;
+        letter-spacing: -1.17px !important;
+        line-height: 43px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+        max-width: 1046px !important;
+        margin: 0 auto 120px !important;
+    }
+    .counter_sec {
+        padding: 90px 20px 0 !important;
+    }
+    .counter_thumb h3 {
+        font-size: 35px !important;
+        line-height: 50px !important;
+    }
+    .counter_thumb p {
+        font-size: 16px !important;
+    }
+    .counter_col {
+        padding: 80px 0 30px !important;
+    }
+    .subscribe_form {
+        padding: 90px 0 120px !important;
+    }
+    .service_col {
+        margin: 0 10px 20px !important;
+        padding: 15px 15px !important;
+        width: 230px !important;
+    }
+    .service_sec .col_4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+    }
+    .grids {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .service_center {
+        margin: 10px 0 0 !important;
+    }
+    .ceo-goals {
+        margin-top: 100px !important;
+        margin-bottom: 80px !important;
+    }
+    .link-section h3 {
+        font-size: 22px !important;
+    }
+    img.ceo-sign {
+        margin: 20px 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner_sec {
+        padding: 0 30px 50px !important;
+    }
+    .counter_sec h2 {
+        font-size: 24px !important;
+        margin: 0 auto 60px !important;
+    }
+    .service_sec {
+        padding: 0 0 30px !important;
+    }
+    img.ceo-sign {
+        padding: 15px 0 40px !important;
+        margin: 20px 0 !important;
+        display: block !important;
+    }
+    section.ceo-section {
+        max-height: 100% !important;
+    }
+    section.schedule-meeting .meetings {
+        flex-direction: column !important;
+        margin: 50px auto !important;
+    }
+    section.schedule-meeting .meeting-section h2 {
+        font-size: 26px !important;
+        letter-spacing: normal !important;
+        line-height: normal !important;
+        font-weight: 300 !important;
+        margin-bottom: 30px !important;
+        text-align: center !important;
+    }
+    .subscribe_form {
+        padding: 90px 0 50px !important;
+    }
+    .subscribe_form {
+        padding: 40px 20px 60px !important;
+    }
+    footer ul {
+        flex-direction: column !important;
+    }
+    footer ul li {
+        padding: 0px 0 30px !important;
+    }
+    .service_col .service_icon {
+        margin: 0 0 30px !important;
+    }
+    section.subscribe_form form {
+        text-align: center;
+        width: 100%;
+    }
+    .subscribe_form  h3 {
+        width: 100%;
+    }
+
+    .meetings .form_col {
+        margin: 0 auto;
+    }
+    section.ceo-section .row {
+        flex-direction: column;
+        display: flex;
+    }
+    section.ceo-section .col-sm-6 {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .link-section {
+        text-align: center;
+        margin-top: 10px !important;
+    }
+    .ceo-goals {
+        margin-top: 40px !important;
+        margin-bottom: 30px !important;
+    }
+    .counter_thumb h3 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .counter_col {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: unset !important;
+    }
+    .counter_col .col-sm-2 {
+        width: 45% !important;
+        margin-bottom: 80px !important;
+    }
+    .counter_col .col-sm-2:before {
+        display: none !important;
+    }
+    .counter_col {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .banner_sec h1 {
+        font-size: 50px !important;
+        line-height: normal !important;
+        padding: 25px 0 !important;
+    }
+    .banner_sec span {
+        font-size: 32px !important;
+    }
+    .banner_sec .container .form_col {
+        margin: 50px auto 0 !important;
+    }
+    .form_col .info_col ul {
+        flex-direction: column !important;
+    }
+    .form_col .info_col ul li {
+        padding-top: 20px !important;
+    }
+    .form_col form .form-group .btn-default {
+        font-size: 16px !important;
+    }
+    .counter_sec {
+        padding: 50px 15px 0 !important;
+    }
+    .counter_sec h2 {
+        font-size: 22px !important;
+        letter-spacing: normal !important;
+        line-height: normal !important;
+    }
+    .link-section h3 {
+        font-size: 16px !important;
+    }
+    .ceo-section .ceo-goals h5 {
+        line-height: normal !important;
+    }
+    .ceo-section .ceo-goals ul li {
+        line-height: 28px !important;
+    }
+    .ceo-section p {
+        line-height: 28px !important;
+    }
+    .ceo-goals {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .technologies-section {
+        padding-top: 0 !important;
+    }
+    img.img-ceo {
+        max-width: 100% !important;
+    }
+    .service_col {
+        width: 100% !important;
+    }
+    .subscribe_form .form-group {
+        flex-direction: column !important;
+    }
+    .subscribe_form .form-group .form-control {
+        width: 80% !important;
+        margin: 0 10px 30px 0px !important;
+    }
+    .subscribe_form .form-group .btn-default {
+        width: 50% !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .subscribe_form h3 {
+        font-size: 24px !important;
+    }
+    img.img-ceo {
+        max-width: 100% !important;
+        width: 70% !important;
+        display: flex !important;
+        justify-content: center !important;
+        /* align-items: center; */
+        margin: 0 auto !important;
+    }
+    .counter_col {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: unset !important;
+    }
+    .counter_col .col-sm-2 {
+        width: 45% !important;
+        margin-bottom: 80px !important;
+    }
+    .counter_col .col-sm-2:before {
+        display: none !important;
+    }
+    .counter_col {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .counter_thumb h3 {
+        font-size: 28px !important;
+        line-height: normal !important;
+    }
+    .link-section {
+        margin-top: 40px !important;
+    }
+    footer {
+        padding-bottom: 10px !important;
+    }
+    footer ul li {
+        padding: 15px 0 !important;
+        line-height: 20px !important;
+    }
+    footer ul {
+         margin: 30px auto 0px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .counter_col .col-sm-2 {
+        width: 100% !important;
+        margin-bottom: 70px !important;
+    }
+    footer ul {
+        margin-top: 15px !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    } 
+    footer {
+        padding-bottom: 10px !important;
+    }
+}

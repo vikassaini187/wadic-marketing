@@ -1,0 +1,107 @@
+.service_sec {
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 150px;
+}
+
+.service_sec .let_col span {
+    color: #D0001B;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: -0.53px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.service_sec .let_col h4 {
+    color: #041531;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    line-height: 44px;
+    margin: 0 0 30px;
+}
+
+.service_sec .let_col p {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 31px;
+    margin: 0 0 25px;
+    padding-right: 20px;
+}
+
+.service_sec .grids {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service_col {
+    margin: 0 10px 25px;
+    height: 280px;
+    padding: 25px 20px;
+    width: 270px;
+    border-radius: 10px;
+    background: linear-gradient(137.67deg, #FFF 0%, #F4F4F4 100%);
+    box-shadow: 5px 5px 40px 0 rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+}
+
+.service_col .service_icon {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 15px;
+}
+
+.service_col h5 {
+    color: #041531;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 12px;
+}
+
+.service_col span {
+    color: #D0001B;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: -0.53px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.service_col p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25px;
+    margin: auto auto 0;
+}
+
+.service_sec .container {
+    max-width: 1200px;
+}
+
+.service_sec .col-sm-9 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+.service_center {
+    margin: 80px 0 0;
+}
+
+.service_last {
+    margin: -50px 0 0;
+}

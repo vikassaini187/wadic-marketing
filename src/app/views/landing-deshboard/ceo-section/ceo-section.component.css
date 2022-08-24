@@ -1,0 +1,132 @@
+section.ceo-section {
+    position: relative;
+    background: #fff;
+    padding-top: 71px;
+    height: 100%;
+    z-index: 1;
+}
+
+.ceo-section span {
+    color: #D0001B;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: -0.53px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.ceo-section p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ceo-section h4 {
+    color: #041531;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    line-height: 44px;
+    margin: 0 0 30px;
+}
+
+.ceo-section .ceo-goals h5 {
+    color: #041531;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 32px 0 14px;
+}
+
+img.ceo-sign {
+    padding: 15px 0 40px;
+}
+
+img.img-ceo {
+    max-width: 423px;
+}
+
+.ceo-goals {
+    margin-top: 100px;
+}
+
+.ceo-section .ceo-goals ul {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ceo-section .ceo-goals ul li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 23px;
+}
+
+.ceo-section .ceo-goals ul li::before {
+    height: 10px;
+    width: 10px;
+    background-color: #041531;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 50px;
+}
+
+.technologies-section {
+    padding-top: 59px;
+}
+
+.ceo-section .technologies-section ul li {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 33px;
+}
+
+.ceo-section .technologies-section ul li:before {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: url(../../../../assets/img/red-icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.ceo-says {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ceo-section .technologies-section h5 {
+    margin: 32px 0 17px;
+}
+
+section.ceo-section:after {
+    background-color: #f9f9f9;
+    content: '';
+    height: 495px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}

@@ -1,0 +1,89 @@
+.meeting-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meetings {
+    display: flex;
+    align-items: center;
+    margin: 81px auto;
+    width: 100%;
+
+    
+}
+.form_col p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 0 15px;
+}
+section.schedule-meeting {
+    background-color: #041531;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.form_col form .form-group .form-control {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: none;
+    border: none;
+    font-weight: 400;
+}
+
+.meetings .form_col {
+    max-width: 363px;
+}
+.form_col p span {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+section.schedule-meeting .meeting-section h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    letter-spacing: -1.17px;
+    line-height: 43px;
+    font-weight: 300;
+    max-width: 470px;
+}
+
+.meetings .form_col ul li {
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.meetings .form-group:last-child {
+    margin-bottom: 0;
+}
+.form_col form .form-group .btn-default {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #D0001B;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
